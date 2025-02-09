@@ -16,15 +16,15 @@ const ContactPage = () => {
         <div className="contact-info-container">
           <h2>Contact Information</h2>
           <div className="icon-container">
-            <a href="https://www.instagram.com/csulb_ai_research/" target="_blank"><FaInstagramSquare size={70} className="icon"/></a>
+            <a href="https://www.instagram.com/csulb_ai_research/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare size={70} className="icon"/></a>
             
-            <a href="https://discord.gg/ASa2pwpTcM" target="_blank"><FaDiscord size={70}  className="icon"/></a>
+            <a href="https://discord.gg/ASa2pwpTcM" target="_blank" rel="noopener noreferrer"><FaDiscord size={70}  className="icon"/></a>
             
-            <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank"><FaLinkedin size={70}  className="icon"/></a>
+            <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={70}  className="icon"/></a>
             
           </div>
 
-            <a className="application-btn alink" role="button" href="https://csulbairesearch.github.io/AI_Research_Website/" target="_blank">
+            <a className="application-btn alink" role="button" href="https://csulbairesearch.github.io/AI_Research_Website/" target="_blank" rel="noopener noreferrer">
               VISIT OUR WEBSITE
             </a>
             {/* <p className="heroP">Email us: ai.researchcsulb@gmail.com</p> */}
