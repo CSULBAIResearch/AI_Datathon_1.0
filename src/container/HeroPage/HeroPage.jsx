@@ -6,7 +6,7 @@ import SharkImg from "../../asset/sharkSample.png"
 
 const HeroPage = () => {
   return (
-    <div className="HeroPage box__container flex__center">
+    <div className="HeroPage box__container flex__center" id="Home">
       <div className="content-container">
         <div className="content-wrapper">
             <h1 className="heroHeading1">

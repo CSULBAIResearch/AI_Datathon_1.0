@@ -3,7 +3,7 @@ import "./ApplicationPage.css"
 
 const ApplicationPage = () => {
   return (
-    <div className="ApplicationPage box__container flex__center">
+    <div className="ApplicationPage box__container flex__center" id="Application">
       <h1 className="heroHeading1">
                 APPLY FOR DATATHON
             </h1>
@@ -13,7 +13,13 @@ const ApplicationPage = () => {
         </div>
         
         <button className="application-btn" role="button">
+        <a
+          href="https://forms.gle/iXQqkHXz2KBiG5WW9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Apply
+        </a>
         </button>
 
 

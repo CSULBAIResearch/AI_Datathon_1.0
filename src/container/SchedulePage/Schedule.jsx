@@ -2,7 +2,7 @@ import React from 'react'
 import "./Schedule.css"
 const Schedule = () => {
   return (
-    <div className='SchedulePage box__container flex__center'>
+    <div className='SchedulePage box__container flex__center' id="Schedule">
         <h1 className='heroHeading1'>SCHEDULE</h1>
         
         <div className="schedule-container">

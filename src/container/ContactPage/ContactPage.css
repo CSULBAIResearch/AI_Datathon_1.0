@@ -41,6 +41,11 @@
     line-height: 1.6;
 }
 
+.alink{
+    text-decoration: none; /* Removes underline */
+    color: inherit;
+}
+
 
 .icon-container{
     display: flex;

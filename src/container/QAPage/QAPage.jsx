@@ -37,7 +37,7 @@ const QAPage = () => {
   }, [activeIndex]);
 
   return (
-    <div className="QAPage box__container flex__center">
+    <div className="QAPage box__container flex__center" id="FAQ">
       <h1 className="heroHeading1">FREQUENTLY QUESTION</h1>
       <div className="FAQ-container">
         {questionsData.map((item, index) => (

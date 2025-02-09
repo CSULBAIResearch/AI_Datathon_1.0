@@ -1,13 +1,13 @@
 import React from "react";
 import "./ContactPage.css"
 import SharkImg from "../../asset/sharkSample.png"
-import { FaInstagramSquare, FaDiscord, FaEnvelope  } from "react-icons/fa";
+import { FaInstagramSquare, FaDiscord, FaEnvelope,FaLinkedin   } from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
 
 
 const ContactPage = () => {
   return (
-    <div className="ContactPage box__container flex__center">
+    <div className="ContactPage box__container flex__center" id="Contact">
       <h1 className="heroHeading1">AI CLUB  at CSULB</h1>
       <div className="contact-container">
         <div className="contact-img-container">
@@ -17,15 +17,18 @@ const ContactPage = () => {
         <div className="contact-info-container">
           <h2>Contact Information</h2>
           <div className="icon-container">
-            <FaInstagramSquare size={70} className="icon"/>
-            <FaDiscord size={70} className="icon"/>
-            <FaEnvelope size={70} className="icon"/>
+            <a href="https://www.instagram.com/csulb_ai_research/" target="_blank"><FaInstagramSquare size={70} className="icon"/></a>
+            
+            <a href="https://discord.gg/ASa2pwpTcM" target="_blank"><FaDiscord size={70} className="icon"/></a>
+            
+            <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank"><FaLinkedin size={70} className="icon"/></a>
+            
           </div>
 
-          <button className="application-btn" role="button">
-            VISIT OUR WEBSITE
-          </button>
-          
+            <a className="application-btn alink" role="button" href="https://csulbairesearch.github.io/AI_Research_Website/" target="_blank">
+              VISIT OUR WEBSITE
+            </a>
+            {/* <p className="heroP">Email us: ai.researchcsulb@gmail.com</p> */}
         </div>
       </div>
 

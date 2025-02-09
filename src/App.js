@@ -2,6 +2,7 @@
 //import { NavBar } from './component';
 import React from 'react';
 
+import NavBar from './component/navBar/NavBar';
 import { HeroPage,ApplicationPage,PillarPage,QAPage,ContactPage,Schedule } from './container';
 import './App.css';
 // import { callApi } from './api';
@@ -10,7 +11,7 @@ import './App.css';
 const App = () => (
 
   <div>
-   
+    <NavBar/>
     <HeroPage/>
     <PillarPage/>
     <ApplicationPage/>

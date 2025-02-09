@@ -7,7 +7,7 @@ import LearningModel from "../../asset/LearningmodelSample.png";
 
 const PillarPage = () => {
   return (
-    <div className="PillarPage box__container flex__center">
+    <div className="PillarPage box__container flex__center" id="Pillar">
       <h1 className="heroHeading1">PILLAR PAGE</h1>
       
       <div className="pillar-container">
