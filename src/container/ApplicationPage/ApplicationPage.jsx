@@ -9,18 +9,21 @@ const ApplicationPage = () => {
             </h1>
       <div className="application-container-box">
         <div className="IntroApplication">
-        Interested in showcasing your data skills? Apply now to participate in our Datathon! Solve real-world challenges, collaborate with a team, and compete for exciting prizes. Don't miss this opportunity—apply today!
+            <p>Interested in showcasing your data skills? Apply now to participate in our Datathon! Solve real-world challenges, collaborate with a team, and compete for exciting prizes. Don't miss this opportunity—apply today!</p>
+            
+            <p>Sign Up Form Closes: Sunday, February 23rd, 11:59pm</p>
+            
+            
         </div>
         
-        <button className="application-btn" role="button">
-        <a
+        <a className="application-btn" role="button"      
           href="https://forms.gle/iXQqkHXz2KBiG5WW9"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
+        
           Apply
+      
         </a>
-        </button>
 
 
       </div>

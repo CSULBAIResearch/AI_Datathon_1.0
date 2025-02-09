@@ -1,8 +1,7 @@
 import React from "react";
 import "./ContactPage.css"
 import SharkImg from "../../asset/sharkSample.png"
-import { FaInstagramSquare, FaDiscord, FaEnvelope,FaLinkedin   } from "react-icons/fa";
-import { SiLinktree } from "react-icons/si";
+import { FaInstagramSquare, FaDiscord,FaLinkedin   } from "react-icons/fa";
 
 
 const ContactPage = () => {
@@ -19,9 +18,9 @@ const ContactPage = () => {
           <div className="icon-container">
             <a href="https://www.instagram.com/csulb_ai_research/" target="_blank"><FaInstagramSquare size={70} className="icon"/></a>
             
-            <a href="https://discord.gg/ASa2pwpTcM" target="_blank"><FaDiscord size={70} className="icon"/></a>
+            <a href="https://discord.gg/ASa2pwpTcM" target="_blank"><FaDiscord size={70}  className="icon"/></a>
             
-            <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank"><FaLinkedin size={70} className="icon"/></a>
+            <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank"><FaLinkedin size={70}  className="icon"/></a>
             
           </div>
 

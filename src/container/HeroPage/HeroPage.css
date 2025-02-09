@@ -6,6 +6,11 @@
     background-color: #8AE6FF;
 }
 
+.HeroPage h2{
+    font-family: "Inter", serif;
+    font-size: 30px;
+}
+
 .content-container{
     display: flex;
     flex-direction: column;

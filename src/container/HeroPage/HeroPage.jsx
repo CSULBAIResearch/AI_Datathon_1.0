@@ -13,6 +13,9 @@ const HeroPage = () => {
                 CSULB DATATHON 1.0
             </h1>
 
+            <h2>Saturday, March 8th</h2>
+            <h2>Location: USU Beach Ballroom 251 ABC</h2>
+
             <p className="heroP">
             For the first time ever, CSULB is hosting its own Datathon, SharkHack, bringing together students to showcase their skills, collaborate, and innovate in the world of data science. SharkHack is an exciting competition where participants analyze real-world data, apply machine learning, and uncover insights to solve complex problems. 
 

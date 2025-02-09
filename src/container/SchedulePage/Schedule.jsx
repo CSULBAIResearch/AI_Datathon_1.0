@@ -4,8 +4,9 @@ const Schedule = () => {
   return (
     <div className='SchedulePage box__container flex__center' id="Schedule">
         <h1 className='heroHeading1'>SCHEDULE</h1>
-        
+        <div className='heroP scheduleNotice'>* Schedule Info: The Event Schedule is Tentative for now, Make sure it says that on the website. But make sure it is clear that Datathon will be from 8:00 AM to 10:00PM . We will finalize in the future once we know more info about workshops/speakers</div>
         <div className="schedule-container">
+          
             <ul className='list-event'>
                 <li>8:00 AM - 8:30 AM: Check-in</li>
                 <li>8:30 AM - 9:30 AM: Welcome and Opening Speakers </li>

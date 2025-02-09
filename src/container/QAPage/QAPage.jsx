@@ -5,18 +5,42 @@ import { FiPlus, FiMinus } from "react-icons/fi";
 const questionsData = [
   {
     id: 1,
-    question: "Question 1?",
-    answer: "Answer 1.",
+    question: "1. What is a Datathon?",
+    answer: "A Datathon is a competition where participants analyze dataset(s), build machine learning model(s), and develop solutions to solve a given problem within the given timeframe.",
   },
   {
     id: 2,
-    question: "Question 2",
-    answer: "Answer 2",
+    question: "2. Who can participate?",
+    answer: "Any current CSULB Enrolled Students can participate! Whether you’re a beginner or an experienced data scientist, you’re welcome to join.",
   },
   {
     id: 3,
-    question: "Question 3",
-    answer: "Answer 3",
+    question: "3. Do I need prior experience in AI or data science",
+    answer: "No prior experience is required! We highly encourage beginners to participate, and we will provide learning resources to help you get started, as well as mentors to guide you through the model building process!",
+  },
+
+  {
+    id: 4,
+    question: "4. Can I participate individually or do I need a team?",
+    answer: "You can participate as an individual or in a team of up to 4 members. If you don’t have a team, we can help match you with others during the team formation phase and through the Datathon Discord Channel",
+  },
+
+  {
+    id: 5,
+    question: "5. What are the judging criteria?",
+    answer: "The two main areas participants will be judged on are model effectiveness and the approach taken in developing their model, including their reasoning, methodology, and decision-making process.",
+  },
+
+  {
+    id: 6,
+    question: "6. When and where is the Datathon happening?",
+    answer: "The Datathon will be taking place in the USU Ballroom, on Saturday, March 8th. Check-in ends at 9:30 AM.",
+  },
+
+  {
+    id: 7,
+    question: "7. What tools and technologies can we use?",
+    answer: "We highly recommend you use Python. You are free to use any AI/ML frameworks, such as TensorFlow, PyTorch, Scikit-learn, etc.",
   },
 ];
 
