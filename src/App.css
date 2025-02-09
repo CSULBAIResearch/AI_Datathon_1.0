@@ -11,15 +11,11 @@
 .box__container{
   min-height: 100vh;
   width: 100%;
+
+  border: none;
+  box-shadow: none;
 }
 
-.bg__setting {
-  /* background: url('./assets/bg.png'); */
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
 
 .wrapper__setting{
   display: flex;

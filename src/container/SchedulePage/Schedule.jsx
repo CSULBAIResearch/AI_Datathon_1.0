@@ -4,7 +4,7 @@ const Schedule = () => {
   return (
     <div className='SchedulePage box__container flex__center' id="Schedule">
         <h1 className='heroHeading1'>SCHEDULE</h1>
-        <div className='heroP scheduleNotice'>* Schedule Info: The Event Schedule is Tentative for now, Make sure it says that on the website. But make sure it is clear that Datathon will be from 8:00 AM to 10:00PM . We will finalize in the future once we know more info about workshops/speakers</div>
+        <div className='heroP scheduleNotice'>*  Schedule Info: The Event Schedule is Tentative for now, but AI X DATA will be taking place from 8:00 AM to 10:00PM. We will finalize the event schedule as we approach the date! workshops/speakers</div>
         <div className="schedule-container">
           
             <ul className='list-event'>

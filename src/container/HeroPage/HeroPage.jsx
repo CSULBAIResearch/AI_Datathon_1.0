@@ -17,7 +17,7 @@ const HeroPage = () => {
             <h2>Location: USU Beach Ballroom 251 ABC</h2>
 
             <p className="heroP">
-            For the first time ever, CSULB is hosting its own Datathon, SharkHack, bringing together students to showcase their skills, collaborate, and innovate in the world of data science. SharkHack is an exciting competition where participants analyze real-world data, apply machine learning, and uncover insights to solve complex problems. 
+            The AI Research club is hosting CSULB's First Datathon, AI X DATA, bringing together students to demonstrate their skills in the fields of Machine Learning and Data Science. AI X DATA is going to be an All Day event taking place on campus, open to any CSULB students interested! Sign Up Below!
 
             </p>
         </div>

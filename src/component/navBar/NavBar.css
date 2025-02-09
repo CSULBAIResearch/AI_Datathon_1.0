@@ -17,7 +17,7 @@
     padding: 1rem 2rem;
     border-radius: 75px;
 
-    width: 80vw;
+    width: 65vw;
     /* margin-top: 1em; */
     margin-left: auto;
     margin-right: auto;
@@ -133,5 +133,11 @@
 
     .club__navbar-smallscreen{
         display: flex;
+    }
+}
+
+@media screen and (max-width:1440px){
+    .NavBar-links {
+        font-size: 20px;
     }
 }

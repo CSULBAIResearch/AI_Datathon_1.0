@@ -49,11 +49,10 @@
     height:auto;
 }
 
+
+
+
 @media screen and (max-width:1440px){
-    .HeroPage{
-        flex-direction: column;
-        text-align: center;
-    }
 
     .content-container, .image-container {
         width: 100%;
@@ -72,19 +71,37 @@
     }
 
     .content-wrapper {
-        padding: 20px;
+        padding: 100px;
     }
 
-    .image-container img{
-        width: 500px;
-        height: 500px;
-    }
-}
-
-
-@media screen and (max-width:1440px){
     .image-container img{
         width: 300px;
         height: 300px;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .HeroPage{
+        flex-direction: column;
+    }
+
+    .content-wrapper h1{
+        font-size: 40px;
+    }
+
+    .content-wrapper h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .content-wrapper{
+        padding: 50px;
+    }
+
+    .image-container{
+        display: none;
+    }
+}
+
+
