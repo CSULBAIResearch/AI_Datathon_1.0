@@ -1,0 +1,36 @@
+
+.SchedulePage{
+    background-color: #8ae6ff;
+
+    flex-direction: column;
+}
+
+.schedule-container{
+    
+    
+    background-color: #fcf6db;
+    padding: 8rem 5rem;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:  "Roboto Mono", serif;
+    font-size: 25px;
+}
+
+.schedule-container ul{
+    list-style-type: none;
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+.schedule-container li{
+    margin-bottom: 15px; /* Space between items */
+    padding-bottom: 10px; /* Space before the underline */
+    border-bottom: 1px solid black; /* Thin underline */
+}
+
+.schedule-container li:last-child {
+    border-bottom: none;
+}

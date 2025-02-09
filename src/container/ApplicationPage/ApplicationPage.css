@@ -1,0 +1,96 @@
+
+.ApplicationPage{
+    background-color: #8ae6ff;
+    flex-direction: column;
+}
+
+.application-container-box{
+    background-color: #fcf6db;
+    width: 550px;
+    min-height: 600px;
+    border-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem;
+
+}
+
+.IntroApplication{
+    font-family: "Roboto Mono", serif;
+    font-size: clamp(1rem, 1.5vw, 1.2rem); /* Adjusts between 1rem and 1.5rem */
+    line-height: 1.6;
+    padding: 100px 70px;
+}
+
+.application-btn{
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 20px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 50%;
+}
+
+.application-btn:after{
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.applpication-btn, .application-btn:focus{
+    user-select: auto;
+}
+
+.applpication-btn:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+    
+.applpication-btn:disabled {
+    cursor: auto;
+}
+
+.applpication-btn:active {
+    border-width: 4px 0 0;
+    background: none;
+}
+
+@media screen and (max-width: 768px){
+
+}
+

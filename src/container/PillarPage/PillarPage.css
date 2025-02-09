@@ -1,0 +1,58 @@
+.PillarPage{
+    background-color: #8ae6ff;
+
+    flex-direction: column;
+}
+
+.pillar-container{
+    /* background-color: red; */
+    
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    padding: 20px;
+    justify-items: center;
+    gap:40px;
+
+}
+
+.pillar-info{
+    background-color: #fcf6db;
+    width: 15vw;
+    
+
+    text-align: center;
+    padding:30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.pillar-info p {
+    font-family:"Inter", serif ;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 1440px) {
+    .pillar-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+
+    .pillar-info {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .pillar-container {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+
+    .pillar-info {
+        width: 60vw;
+    }
+}
