@@ -10,7 +10,7 @@ const HeroPage = () => {
       <div className="content-container">
         <div className="content-wrapper">
             <h1 className="heroHeading1">
-                CSULB DATATHON 1.0
+                CSULB DATATHON: AI X DATA
             </h1>
 
             <h2>Saturday, March 8th</h2>
