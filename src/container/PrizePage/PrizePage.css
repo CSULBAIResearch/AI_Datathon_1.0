@@ -1,0 +1,105 @@
+/******************************************/
+/* PRIZES CONTAINER */
+/******************************************/
+.Prizes-container {
+    /* Same background color as .NavBar-container */
+    background-color: #8ae6ff;
+    padding-top: 1rem;
+    color: black;
+    padding-bottom: 2rem; /* some extra spacing at bottom */
+  }
+  
+  /******************************************/
+  /* PRIZES WRAPPER */
+  /******************************************/
+  .Prizes-wrapper {
+    /* Similar to .NavBar-wrapper */
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: #fcf6db;
+    display: flex;
+    flex-direction: column; /* stack items vertically */
+    align-items: center;
+    gap: 1.5rem; /* spacing between child elements */
+    padding: 1rem 2rem;
+    border-radius: 75px;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; /* space above the wrapper */
+  }
+  
+  /******************************************/
+  /* PRIZES LIST */
+  /******************************************/
+  .Prizes-list {
+    /* If you’re displaying multiple prizes in a row */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* spacing between prize cards */
+    list-style: none; /* if using <li> */
+    padding: 0;       /* remove default list padding */
+    margin: 0;        /* remove default list margin */
+    font-family: "Roboto Mono", serif;
+  }
+  
+  /******************************************/
+  /* PRIZE CARD */
+  /******************************************/
+  .Prize-card {
+    /* A card-like container for each prize */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 250px;  /* control the card width */
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.2s ease-in-out; /* for a hover effect */
+    cursor: pointer;
+  }
+  
+  .Prize-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .Prize-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+  }
+  
+  .Prize-card p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+  }
+  
+  /* Hover effect on the prize card */
+  .Prize-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /******************************************/
+  /* RESPONSIVE BREAKPOINTS */
+  /******************************************/
+  @media screen and (max-width: 1150px) {
+    .Prizes-wrapper {
+      /* For smaller screens, adjust or stack differently */
+      width: 80vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Prizes-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Prize-card {
+      max-width: 90%;
+    }
+  }
+  

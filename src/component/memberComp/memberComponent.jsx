@@ -1,8 +1,6 @@
 import React from 'react'
 import './memberComponent.css'
 
-import ShaunLime from "../../asset/memberImg/Shaun_Lim.jpg"
-
 const MemberComponent = ({memberName, memberPosition,memberImg}) => {
   return (
     <div className="member__component">
@@ -18,4 +16,4 @@ const MemberComponent = ({memberName, memberPosition,memberImg}) => {
   )
 }
 
-export default MemberComponent
+export default MemberComponent;

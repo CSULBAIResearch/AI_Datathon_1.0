@@ -41,7 +41,7 @@ const MemberInfo = [
         },
         {
             name: "Shrawak",
-            position: "Treasure",
+            position: "Treasurer",
             memberImg : Shrawak,
         },
         {
