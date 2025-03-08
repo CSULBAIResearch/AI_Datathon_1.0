@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.counter-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* background-color: #8AE6FF; */
+
+    background-color: #fcf6db;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 20vh;
+
+    border: none;
+    box-shadow: none;
+  }
+  
+.counterHeadline{
+    font-size: 60px;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   
+}
+
+.countdown {
+    font-size: clamp(2.5rem, 5vw, 6rem);
+    font-weight: bold;
+    font-family: "Mukta", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 1.2em;
+    background-color: #8AE6FF;
+    min-width: 700px;
+    border-radius: 80px;
+    padding: 20px;
+}
+
+  
