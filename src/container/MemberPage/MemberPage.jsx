@@ -35,6 +35,11 @@ const MemberInfo = [
             memberImg : ShaunLime,
         },
         {
+            name: "Camille Wong",
+            position: "Shark-GPT Lead",
+            memberImg : Camille,
+        },
+        {
             name: "Shrawak",
             position: "Treasure",
             memberImg : Shrawak,
@@ -45,6 +50,11 @@ const MemberInfo = [
             memberImg : Soroush,
         },
         {
+            name: "Joshua Nwabuzor",
+            position: "Event Coordinator",
+            memberImg : Joshua,
+        },
+        {
             name: "My Lu",
             position: "Website Lead",
             memberImg : MyLu,
@@ -53,8 +63,8 @@ const MemberInfo = [
 const MemberPage = () => {
     
     return (
-    <div className='memberPage-container flex__center box__container'>
-        <h1 className='heroHeading1'>Member Page</h1>
+    <div className='memberPage-container flex__center box__container' id="Member">
+        <h1 className='heroHeading1'>OFFICER</h1>
         <div className="member-section">
             {MemberInfo.map((member, index)=>
                 <MemberComponent
