@@ -6,11 +6,11 @@
     font-family: Arial, sans-serif;
     /* background-color: #8AE6FF; */
 
-    background-color: #fcf6db;
+    background-color: #8AE6FF;
     flex-direction: column;
 
     width: 100%;
-    min-height: 20vh;
+    min-height: 100vh;
 
     border: none;
     box-shadow: none;
@@ -31,7 +31,7 @@
     font-weight: 500;
     font-style: normal;
     margin-bottom: 1.2em;
-    background-color: #8AE6FF;
+    background-color: #fcf6db;
     min-width: 700px;
     border-radius: 80px;
     padding: 20px;

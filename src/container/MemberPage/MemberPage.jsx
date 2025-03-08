@@ -1,20 +1,28 @@
 import React from 'react'
+import {MemberComponent  } from '../../component'
 
+const MemberInfo = [
+        {
+            name: "name1",
+            position: "pos1"
+        },
+        {
+            name: "name1",
+            position: "pos1"
+        },
+    ]
 const MemberPage = () => {
-    // const MemberInfo = [
-    //     {
-    //         name: "name1",
-    //         position: "pos1"
-    //     },
-    //     {
-    //         name: "name1",
-    //         position: "pos1"
-    //     },
-    // ]
-  
-  
+    
     return (
-    <div>MemberPage</div>
+    <div className='memberPage-container flex__center box__container'>
+        <h1>Member Page</h1>
+        <div className="member-section">
+            
+            <MemberComponent/>
+           
+        </div>
+
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import "./Counter.css";
 
 const Counter = () => {
   // Event timings
-  const EventStart = new Date("2025-03-08T8:00:00").getTime();
+  const EventStart = new Date("2025-03-08T08:00:00").getTime();
   const EventEnd = new Date("2025-03-08T22:00:00").getTime();
 
   // Function to generate time breakdown
@@ -23,6 +23,8 @@ const Counter = () => {
   // Wrap function in `useCallback` to prevent infinite re-renders
   const calculateTimeLeft = useCallback(() => {
     const now = new Date().getTime();
+    console.log("now time: ", now)
+    console.log("Event Start: ", EventStart)
 
     if (now < EventStart) {
       // Counting down to the event start

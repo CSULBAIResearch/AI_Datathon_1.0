@@ -3,7 +3,7 @@
 import React from 'react';
 
 import {NavBar, Counter} from './component';
-import { HeroPage,ApplicationPage,PillarPage,QAPage,ContactPage,Schedule } from './container';
+import { HeroPage,PillarPage,QAPage,ContactPage,Schedule,JudgePage } from './container';
 import './App.css';
 // import { callApi } from './api';
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -16,8 +16,10 @@ const App = () => (
     <HeroPage/>
     <Counter/>
     <PillarPage/>
-    <ApplicationPage/>
+    {/* <ApplicationPage/> */}
+    <JudgePage/>
     <Schedule/>
+    
     <QAPage/>
     <ContactPage/>
 

@@ -6,11 +6,17 @@ import QAPage from "./QAPage/QAPage";
 import ContactPage from "./ContactPage/ContactPage";
 import ApplicationPage from "./ApplicationPage/ApplicationPage";
 import Schedule from "./SchedulePage/Schedule";
+import PrizePage from "./PirzePage/PrizePage";
+import MemberPage from "./MemberPage/MemberPage";
+import JudgePage from "./JudgePage/JudgePage";
 export  {
     HeroPage,
     PillarPage,
     QAPage,
     ContactPage,
     ApplicationPage,
-    Schedule
+    Schedule,
+    PrizePage,
+    MemberPage,
+    JudgePage
 }

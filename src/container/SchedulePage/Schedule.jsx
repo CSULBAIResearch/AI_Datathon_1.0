@@ -17,14 +17,14 @@ const Schedule = () => {
                     <p className=''>--- 11:00PM - 12:00PM : Intro to Pandas ---</p>
 
                 </li>
-                <li>12:30 PM - 1:30 PM: Lunch Served</li>
+                <li>12:30 PM - 1:30 PM: Lunch Served - Pizza</li>
                 <li>1:30 PM - 4:00 PM: Hacking Session 2 
                   <p className=''>--- 4:30PM - 5:30PM : Machine Learning with Scikit ---</p>
 
 
                 </li>
                 <li>4:15 PM - 6:30 PM: Hacking Session 3</li>
-                <li>6:30 PM - 7:30 PM: Dinner Served </li>
+                <li>6:30 PM - 7:30 PM: Dinner Served - Pasta </li>
                 <li>7:30 PM - 8:00 PM: Final Sprint Hacking Session </li>
                 <li>8:00 PM - Hacking Ends</li>
                 <li>8:15 PM - 9:15 PM: Presentations & Judging</li>

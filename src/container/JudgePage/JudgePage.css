@@ -1,0 +1,23 @@
+
+
+.judge-container{
+    background-color: #8ae6ff;
+    flex-direction: column;
+}
+
+
+.judge-list{
+    list-style: none;
+    font-size: clamp(1.3rem, 1.2vw, 2rem);
+    font-family: "Roboto Mono", serif;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.judge-list li{
+    padding: 1.5em;
+    background-color: #fcf6db;
+    border-radius: 50px;
+    
+}
