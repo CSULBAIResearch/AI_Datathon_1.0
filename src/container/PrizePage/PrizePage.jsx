@@ -25,7 +25,7 @@ const PrizePage = () => {
     },
     {
       title: 'Gift Card',
-      description: 'Amazin Gift Card',
+      description: 'Amazon Gift Card',
       imgUrl: Giftimg,
     },
   ];
