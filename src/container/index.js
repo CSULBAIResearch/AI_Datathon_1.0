@@ -6,7 +6,7 @@ import QAPage from "./QAPage/QAPage";
 import ContactPage from "./ContactPage/ContactPage";
 import ApplicationPage from "./ApplicationPage/ApplicationPage";
 import Schedule from "./SchedulePage/Schedule";
-import PrizePage from "./PirzePage/PrizePage";
+import PrizePage from "./PrizePage/PrizePage";
 import MemberPage from "./MemberPage/MemberPage";
 import JudgePage from "./JudgePage/JudgePage";
 export  {

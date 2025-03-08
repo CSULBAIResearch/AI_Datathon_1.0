@@ -49,11 +49,21 @@ const MemberInfo = [
             position: "Tech Lead/ Workshop",
             memberImg : Soroush,
         },
+
+        {
+            name: "Jose L. Avila",
+            position: "Public Relations Officer",
+            memberImg : Jose,
+        },
+
         {
             name: "Joshua Nwabuzor",
             position: "Event Coordinator",
             memberImg : Joshua,
         },
+
+        
+
         {
             name: "My Lu",
             position: "Website Lead",
