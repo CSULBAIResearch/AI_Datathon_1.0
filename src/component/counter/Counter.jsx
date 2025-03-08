@@ -3,7 +3,7 @@ import "./Counter.css";
 
 const Counter = () => {
   // Event timings
-  const EventStart = new Date("2025-03-08T08:00:00").getTime();
+  const EventStart = new Date("2025-03-08T09:30:00").getTime();
   const EventEnd = new Date("2025-03-08T22:00:00").getTime();
 
   // Function to generate time breakdown
@@ -55,6 +55,7 @@ const Counter = () => {
     <div className="counter-container flex__center">
       <h2 className = "heroHeading1">{timeLeft.target}</h2>
       <div className="countdown">
+        
         <span>{timeLeft.days} : </span>
         <span>{timeLeft.hours} : </span>
         <span>{timeLeft.minutes} : </span>
