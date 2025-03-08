@@ -4,7 +4,7 @@ import "./Counter.css";
 const Counter = () => {
   // Event timings
   const EventStart = new Date("2025-03-08T09:30:00").getTime();
-  const EventEnd = new Date("2025-03-08T22:00:00").getTime();
+  const EventEnd = new Date("2025-03-08T20:00:00").getTime();
 
   // Function to generate time breakdown
   function timeGenerate(diff) {
