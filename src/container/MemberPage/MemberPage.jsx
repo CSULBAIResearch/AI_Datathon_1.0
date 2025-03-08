@@ -1,24 +1,69 @@
 import React from 'react'
 import {MemberComponent  } from '../../component'
+import './MemberPage.css'
+
+
+//member image
+import ShaunLime from "../../asset/memberImg/Shaun_Lim.jpg"
+import Camille from "../../asset/memberImg/Camille Wong.jpg"
+import Fozhan from "../../asset/memberImg/Foojan Babaeeian.jpg"
+import Hitha from "../../asset/memberImg/Hitha Sunkara.jpeg"
+import Jose from "../../asset/memberImg/Jose L. Avilla.png"
+import Joshua from "../../asset/memberImg/Joshua_Nwabuzor.jpg"
+import MyLu from "../../asset/memberImg/MyLu.jpeg"
+import Shrawak from "../../asset/memberImg/Shrawak Shakya.png"
+import Soroush from "../../asset/memberImg/Soroush Mirzaee.jpeg"
+
+
+
+
 
 const MemberInfo = [
         {
-            name: "name1",
-            position: "pos1"
+            name: "Hitha Sunkara",
+            position: "Datathon Director",
+            memberImg : Hitha,
         },
         {
-            name: "name1",
-            position: "pos1"
+            name: "Fozhan Babaeeiyan",
+            position: "President/Speaker",
+            memberImg : Fozhan,
+        },
+        {
+            name: "Shaun Lim",
+            position: "Vice President/ Workshop",
+            memberImg : ShaunLime,
+        },
+        {
+            name: "Shrawak",
+            position: "Treasure",
+            memberImg : Shrawak,
+        },
+        {
+            name: "Soroush Mirzaee",
+            position: "Tech Lead/ Workshop",
+            memberImg : Soroush,
+        },
+        {
+            name: "My Lu",
+            position: "Website Lead",
+            memberImg : MyLu,
         },
     ]
 const MemberPage = () => {
     
     return (
     <div className='memberPage-container flex__center box__container'>
-        <h1>Member Page</h1>
+        <h1 className='heroHeading1'>Member Page</h1>
         <div className="member-section">
-            
-            <MemberComponent/>
+            {MemberInfo.map((member, index)=>
+                <MemberComponent
+                key = {index}
+                memberImg={member.memberImg}
+                memberName={member.name}
+                memberPosition={member.position}
+                />
+            )}
            
         </div>
 

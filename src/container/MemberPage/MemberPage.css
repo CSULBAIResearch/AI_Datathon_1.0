@@ -2,10 +2,35 @@
 
 
 .memberPage-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
     gap:20px;
-
-    /* background: lightcoral; */
+    background: #8ae6ff;
     padding: 20px;
+
+    flex-direction: column;
+}
+
+.member-section{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .member-section{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 850px){
+    .member-section{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .member-section{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
