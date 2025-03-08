@@ -1,15 +1,3 @@
-// import React from 'react'
-// import "./PrizePage.css"
-// const PrizePage = () => {
-//   return (
-//     <div className='PrizePage-container flex__center box__container'>
-//       <h1 className='heroHeading1'>PRIZE</h1>
-//     </div>
-//   )
-// }
-
-// export default PrizePage
-
 import JBLimg from '../../asset/prizesImg/JBL.jpg';
 import Kimg from '../../asset/prizesImg/keyboard.jpg';
 import legoimg from '../../asset/prizesImg/Lego.webp';
