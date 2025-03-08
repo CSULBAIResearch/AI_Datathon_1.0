@@ -1,8 +1,10 @@
 import React from 'react'
-import "./PrizePage"
+import "./PrizePage.css"
 const PrizePage = () => {
   return (
-    <div>PrizePage</div>
+    <div className='PrizePage-container flex__center box__container'>
+      <h1 className='heroHeading1'>PRIZE</h1>
+    </div>
   )
 }
 
