@@ -17,7 +17,7 @@ const JudgePage = () => {
 
 
   return (
-    <div className='judge-container box__container flex__center'>
+    <div className='judge-container box__container flex__center' id = "Judge">
         <h1 className='heroHeading1'>JUDGE</h1>
         <div className="judge-describtion">
             <ul className='judge-list'>
