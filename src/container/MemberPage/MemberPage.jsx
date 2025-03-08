@@ -62,8 +62,6 @@ const MemberInfo = [
             memberImg : Joshua,
         },
 
-        
-
         {
             name: "My Lu",
             position: "Website Lead",

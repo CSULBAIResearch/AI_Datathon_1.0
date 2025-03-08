@@ -21,12 +21,12 @@ const JudgePage = () => {
         <h1 className='heroHeading1'>JUDGE</h1>
         <div className="judge-describtion">
             <ul className='judge-list'>
-                <li>Shrey Modi </li>
-                <li>Rahul Vishwakarma</li>
                 <li>Dave Winter</li>
                 <li>Amir Ghasemkhani </li>
-                <li>Hedayatipour </li>
-
+                <li>Ava Hedayatipour </li>
+                <li>Wajdi Aghnatios </li>
+                <li>Shrey Modi </li>
+                <li>Rahul Vishwakarma</li>
             </ul>
         </div>
 

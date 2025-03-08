@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactPage.css"
-import SharkImg from "../../asset/sharkSample.png"
+import SharkImg from "../../asset/shark.gif"
 import { FaInstagramSquare, FaDiscord,FaLinkedin   } from "react-icons/fa";
 
 
